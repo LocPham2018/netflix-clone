@@ -1,0 +1,10 @@
+.results {
+	background-color: black;
+	color: #efefef;
+	padding: 1rem;
+}
+
+.results h2 {
+	font-weight: 700;
+	margin-bottom: 1rem;
+}

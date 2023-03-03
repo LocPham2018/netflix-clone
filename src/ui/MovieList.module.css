@@ -1,0 +1,39 @@
+.movies {
+	margin: 1rem 0 2rem;
+	padding: 0.75rem 0.5rem;
+	display: flex;
+	gap: 0.75rem;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.nowrap {
+	flex-wrap: nowrap;
+	overflow-x: auto;
+}
+
+.nowrap::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+	background-color: #eee;
+	border-radius: 2px;
+}
+
+.nowrap::-webkit-scrollbar-thumb {
+	background-color: #888;
+	border-radius: 2px;
+}
+
+.nowrap::-moz-scrollbar {
+	width: 6px;
+	height: 6px;
+	background-color: #eee;
+	border-radius: 3px;
+}
+
+.nowrap::-moz-scrollbar-thumb {
+	background-color: #888;
+	border-radius: 3px;
+}

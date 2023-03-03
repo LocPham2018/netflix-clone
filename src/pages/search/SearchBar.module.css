@@ -1,0 +1,42 @@
+.container {
+	height: 50vh;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container form {
+	background-color: #efefef;
+	width: 50%;
+}
+
+.container input {
+	width: 100%;
+	border: none;
+	padding: 1.5rem 1rem;
+}
+
+.btns {
+	padding: 1rem;
+	border-top: 2px solid skyblue;
+	text-align: end;
+}
+
+.btns button {
+	border: none;
+	margin-left: 0.25rem;
+	padding: 0.5rem;
+	font-size: 0.875rem;
+	font-weight: 700;
+}
+
+.button {
+	background-color: skyblue;
+	color: #efefef;
+}
+
+.button-alt {
+	background-color: #efefef;
+	color: #444;
+}

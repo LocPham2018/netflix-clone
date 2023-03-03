@@ -1,0 +1,27 @@
+.movie {
+	position: relative;
+	z-index: 10;
+}
+
+.movie-poster {
+	width: 160px;
+	min-width: 160px;
+	height: 240px;
+}
+
+.movie-backdrop {
+	width: 320px;
+	min-width: 320px;
+	height: 180px;
+}
+
+.movie img {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transition: transform 0.5s ease-in-out;
+}
+
+.movie img:hover {
+	transform: scale(110%);
+}
